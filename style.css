@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "Cascadia Code", monospace;
+  font-size: 1rem;
+  color: bisque;
+}
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  background-color: rgb(40, 40, 40);
+}
+main {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+#terminal {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+.terminalInput {
+}
