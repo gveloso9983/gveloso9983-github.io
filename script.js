@@ -6,17 +6,21 @@ document.querySelector("body").addEventListener("click", () => {
 
 const COMMANDS = {
   help: ["about ", "skills", "experience", "socials"].join("<br>"),
-  about: "Hello :), I'm Gonçalo Veloso",
+  about: "Hello :), I'm Gonçalo Veloso, a software enginner from Portugal.. </br> To find out more about my <u>skills</u> and <u>experience</u>, write the commands underlined, on the console. ",
   skills: [
     "Python",
     "Machine Learning",
     "Deep Learning",
-    "Computer Vision",
     "Web Development",
-    "Dev Ops",
+    "Spring Boot",
+    "Laravel",
+    "AngularJS",
+    "SQL Databases",
+    "MongoDB"
   ].join("<br>"),
   experience:
-    "Currently working as a Computer Vision Engineer for Centro Algoritmi and BOSCH Portugal",
+  [  "Currently working as a Backend Engineer at Immera.", "Previously work: <ul> <li>Computer Vision Engineer for Centro Algoritmi and BOSCH Portugal</li> <li>Full Stack Engineer for Centro Algoritmi and BOSCH Portugal</li> </ul>"].join("<br>"),
+   
   socials:
     'You can contact me on any of the following links:<br>["<a target="_blank" rel="noopener noreferrer" href="https://github.com/gveloso9983" class="social link">GitHub</a>", "<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/goncalo-veloso/" class="social link">Linked In</a>"]',
 };
